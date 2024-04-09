@@ -1,0 +1,24 @@
+{
+  "name": "spa-routes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack serve",
+    "build": "npx webpack build"
+  },
+  "author": "Stanley Hughes",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.91.0",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
