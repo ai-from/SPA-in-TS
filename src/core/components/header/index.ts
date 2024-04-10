@@ -1,18 +1,18 @@
 import Component from "../../templates/component";
-import { pageIds } from "../../../pages/app";
+import { pageIds, pageTitles } from "../../../pages/app";
 
 const Buttons = [
     {
         id: pageIds.mainPage,
-        text: 'Main page'
+        text: pageTitles.mainPage
     },
     {
         id: pageIds.settingsPage,
-        text: 'Settings page'
+        text: pageTitles.settingsPage
     },
     {
         id: pageIds.statisticsPage,
-        text: 'Statistics page'
+        text: pageTitles.statisticsPage
     }
 ]
 

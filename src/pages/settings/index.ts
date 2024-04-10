@@ -2,10 +2,6 @@ import Page from "../../core/templates/page";
 import { pageTitles } from "../app";
 
 class SettingsPage extends Page {
-    static textObject = {
-        mainTitle: 'Settings page'
-    }
-
     constructor(id: string) {
         super(id);
     }

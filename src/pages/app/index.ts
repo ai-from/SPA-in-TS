@@ -20,15 +20,16 @@ export const enum pageTitles {
 
 class App {
     private static container: HTMLElement = document.body;
-    private initialPage: MainPage;
     private header: Header;
     private static defaultPageId: string = 'current-page';
+
     static renderNewPage(idPage: string) {
         const currentPageHTML = document.querySelector(`#${App.defaultPageId}`);
         if(currentPageHTML) {
             currentPageHTML.remove();
         }
         let page: Page | null = null;
+        
         if(idPage === pageIds.mainPage) {
             page = new MainPage(idPage);
         }
@@ -62,7 +63,6 @@ class App {
     }
 
     constructor() {
-        this.initialPage = new MainPage(pageIds.mainPage);
         this.header = new Header('header', 'header');
     }
 

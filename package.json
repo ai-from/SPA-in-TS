@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx webpack serve",
+    "serve": "npx webpack serve",
     "build": "npx webpack build",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
